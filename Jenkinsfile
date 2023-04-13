@@ -9,8 +9,8 @@ pipeline {
             steps {
                 script{
                     echo 'building the application'
-                    sh "docker build -t jeelkanani41/exam:examimage ."
-                    sh "docker run -it -d -p 3000:3000 jeelkanani41/exam:examimage"
+                    sh "docker build -t hirenhk39/exam:examimage ."
+                    sh "docker run -it -d -p 3000:3000 hirenhk39/exam:examimage"
 
                 }
             }
